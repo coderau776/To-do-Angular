@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C0D8C0;
+    padding: 5rem;
+    font-family: Helvetica, sans-serif;
+    color: #DD4A48;
+    font-size: large;
+    
+}

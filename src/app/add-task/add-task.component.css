@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -3.5rem;
+    background-color: #ECB390;
+    width: 50rem;
+    margin: auto;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+h2{
+    align-self: flex-start;
+    padding-left: 2rem;
+}
+input{
+    width: 40rem;
+    border-radius: 0.3rem;
+    border-width: 0;
+    padding: 1rem;
+}
