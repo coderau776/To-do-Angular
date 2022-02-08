@@ -1,9 +1,9 @@
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background-color: #C0D8C0;
     padding: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
     font-family: Helvetica, sans-serif;
     color: #DD4A48;
     font-size: large;

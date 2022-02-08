@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: -3.5rem;
+    top: -4.5rem;
     background-color: #ECB390;
     width: 50rem;
     margin: auto;
@@ -13,10 +13,55 @@
 h2{
     align-self: flex-start;
     padding-left: 2rem;
+    color: #DD4A48;
 }
 input{
     width: 40rem;
     border-radius: 0.3rem;
     border-width: 0;
     padding: 1rem;
+    outline: none;
+    background-color: #F5EEDC;
+    color: #DD4A48;
+    font-weight: bold;
+    
+}
+input::placeholder{
+    color: #DD4A48;
+    opacity: 0.5;
+}
+button {
+  background: #DD4A48;
+  border: 1px solid #DD4A48;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #F5EEDC;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #DD4A48;
+}
+
+.button-24:active {
+  opacity: .5;
 }

@@ -1,4 +1,7 @@
-<div class="container">
-    <h1>Todos</h1>
+<div>
+    <div class="container">
+        <h1>Todos</h1>
+    </div>
+    <app-add-task (newItemEvent)="sendToAppTasks($event)"></app-add-task>
+<app-tasks [item]="task"></app-tasks>    
 </div>
-<app-add-task></app-add-task>

@@ -1,0 +1,8 @@
+<div class="task-item">
+    <p [contentEditable]="editable" (click)="editableReverse()" (mouseleave)="editableNormal()">{{task.task}}</p>
+    <div class="button">
+        <button (click)="removeSelection(task.id)">x</button>
+    </div>
+    
+</div>
+

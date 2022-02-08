@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { TodosComponent } from './todos/todos.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { FormsModule } from '@angular/forms';
+import { TasksComponent } from './tasks/tasks.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodosComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    TasksComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,

@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodosComponent implements OnInit {
 
+  task:String='';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  sendToAppTasks(task:String){
+    this.task=task;
+  }
 }

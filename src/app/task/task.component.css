@@ -1,0 +1,30 @@
+.task-item{
+    background-color: #DD4A48;
+    color: #F5EEDC;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+p{
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-weight: bold;
+    width:45rem ;
+}
+.button{
+    float: right;
+    margin-top: 1rem;
+}
+button{
+    border-radius: 45%;
+    border-width: 0;
+    background-color: #F5EEDC;
+    color: #DD4A48;
+    
+    font-weight: bold;
+}
